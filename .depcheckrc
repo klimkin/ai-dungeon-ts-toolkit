@@ -1,0 +1,6 @@
+ignores: [
+    "@types/jest",
+    "ts-jest",
+    "ts-loader",
+    "webpack-cli",
+]
