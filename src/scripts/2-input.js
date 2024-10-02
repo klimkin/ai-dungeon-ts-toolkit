@@ -2,9 +2,9 @@
 
 const modifier = (text) => {
     if (!state.hook) {
-        state.hook = new library.GameHook()
+        state.hook = new library.MyGame()
     } else {
-        state.hook = Object.assign(new library.GameHook(), state.hook)
+        state.hook = Object.assign(new library.MyGame(), state.hook)
     }
     const world = {
         history: history,

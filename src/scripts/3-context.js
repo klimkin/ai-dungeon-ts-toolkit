@@ -1,7 +1,7 @@
 /* global library, text, history, storyCards, state, info, console */
 
 const modifier = (text) => {
-    state.hook = Object.assign(new library.GameHook(), state.hook)
+    state.hook = Object.assign(new library.MyGame(), state.hook)
     const world = {
         history: history,
         storyCards: storyCards,
